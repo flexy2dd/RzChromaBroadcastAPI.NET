@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>AndrewBabbitt97</Authors>
+    <Company>Razer</Company>
+    <Product>Chroma</Product>
+    <Description>Wrapper for native RzChromaBroadcastAPI</Description>
+    <Copyright>Razer Inc.</Copyright>
+    <PackageProjectUrl>https://github.com/AndrewBabbitt97/RzChromaBroadcastAPI.NET</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/AndrewBabbitt97/RzChromaBroadcastAPI.NET/master/nuget.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/AndrewBabbitt97/RzChromaBroadcastAPI.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Razer;Chroma;API;RzChromaBroadcastAPI;Broadcast</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+</Project>
